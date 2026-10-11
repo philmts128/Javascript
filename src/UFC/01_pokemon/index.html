@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Pokemon JS</title>
+	</head>
+	
+	<body>
+		<!-- componentes para inserir dados do Pokemon -->
+		<form>
+			<label>
+				Nome: 
+				<input id="input-nome" type="text"/>
+			</label>
+			
+			<label>
+				Tipo: 
+				<input id="input-tipo" "type="text"/>
+			</label>
+			
+			<label>
+				Nível: 
+				<input id="input-nivel" type="number" min="0" max="99" value="10"/>
+			</label>
+			
+			<label>
+				HP: 
+				<input id="input-hp" type="number" min="500" max="9999" value="500"/>
+			</label>
+			
+			<input id="btn-submit" type="button" value="Inserir"/>
+			<input id="btn-clear" type="button" value="Limpar"/>
+		</form>
+		
+		<div id="pokemons">
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
